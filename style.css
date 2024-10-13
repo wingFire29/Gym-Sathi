@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+ }
+ .container {
+     width: 100%;
+     min-height: 100vh;
+     /* Update the background image URL */
+     background-image:url('her.jpg'); 
+     background-position: right;
+     background-size: cover;
+     background-position:  right;
+     padding: 10px 8%;
+ }
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ nav img.logo {
+     /* Update the logo image URL */
+     src: url('high.jpg')
+    
+     width = 100px; /* Adjust the width as needed */
+     
+ }
+ nav ul {
+     list-style: none;
+     display: flex;
+     text-decoration: none;
+ }
+ nav ul li {
+     margin-right: 50px; /* Adjust spacing between navigation items */
+     text-decoration: none;
+ }
+ nav ul li a{
+     text-decoration: none;
+ }
+ .btn {
+     /* Adjust button styling */
+     padding: 8px 16px;
+     background: #333;
+     color: #fff;
+     font-size: 16px;
+     cursor: pointer;
+ }
+ body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+ 
+    .button-container {
+        /* text-align: center;
+        margin-top: 1000px; 
+        margin-left: 500px;  */
+        position: absolute; /* Set position absolute for the button container */
+        top: 50%; /* Position the container 50% from the top */
+        left: 50%; /* Position the container 50% from the left */
+        transform: translate(-50%, -50%); /* Center the container using translate */
+        text-align: end;
+    }
+    
+ 
+ 
+ 
+ .btun{
+    position: absolute;
+    bottom: 150px;
+    left: 100px; 
+ 
+ 
+    padding: 10px 20px;
+     background-color: rgb(158, 12, 12);
+     color:white;
+     border: none;
+     border-radius : 5px;
+     font-size : 30px;
+     cursor: pointer;
+ 
+ 
+     p {
+       /* Your CSS styles for <p> tag here */
+       font-size: 16px;
+       line-height: 1.5;
+       color: green;
+       position:absolute;
+ 
+   }
+     
+ }
+ /* #logo {
+  width: 80px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  border-radius : 5px;
+  left: 300px;
+  bottom: 150px; ;
+  
+ }
+ #log {
+ width: 80px;
+ height: 55px;
+ position: absolute;
+ border: none;
+ border-radius : 5px;
+ left: 20px;
+ bottom: 150px; ;
+ 
+ } */
+ 
+ 
+ 
